@@ -51,8 +51,8 @@ def main():
 
 
 def get_dataset():
-    train_data_path = "../data/cat_and_dog/train"
-    test_data_path = "../data/cat_and_dog/validation"
+    train_data_path = "../../data/cat_and_dog/train"
+    test_data_path = "../../data/cat_and_dog/validation"
 
     transform_img = transforms.Compose([
         transforms.Resize(256),
